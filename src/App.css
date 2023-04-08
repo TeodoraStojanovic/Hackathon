@@ -65,7 +65,104 @@
   margin-left: 20%;
   margin-right: 20%;
   position: relative;
-margin-top: 5px;
+  margin-top: 5px;
 
 
 }
+
+
+.row{
+ padding-top: 20px;
+ font-size: 25 px;
+  
+}
+.main-box{ 
+  
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  background-size: cover;
+  padding-top: 220px;
+ 
+}
+
+.btn-registar{
+  background-color:rgb(97, 139, 97);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 5px 15px;
+  text-align: center;
+
+  }
+  .registar{
+    font-size: 20px;
+  }
+  .forma{
+    margin: top -100px;
+
+
+  }
+  .row-garden{
+    padding: 5%;
+    background-color: #dde6d2;
+    
+  }
+  .card{
+  width: 20%;
+  margin: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  
+  }
+  .card-img-top{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+  
+  }
+  .card-title{
+  font-size: 35px;
+  margin-top: 9px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+  }
+  .card-text{
+    text-align: center;
+  }
+  .btn1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;
+  background-color: rgb(89, 199, 89);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+  
+  }
+  .main{
+    margin:2px;
+  }
+  .card-text{
+    font-size: 19px;
+    text-align: center;
+   margin-top: -5px;
+  
+  }
+  .btn1:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
