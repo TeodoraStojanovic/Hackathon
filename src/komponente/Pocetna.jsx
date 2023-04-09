@@ -13,7 +13,7 @@ const navigate=useNavigate();
     <div>
         <p className="paragraf">Rent a garden at our estate and secure healthy vegetables of your choice!
         The goal of our application is to provide quality and healthy vegetables to our users. Create your own garden and our team of farmers and technologists will maintain it for you! We also offer the possibility of delivering vegetables to your home address.</p>
-    <button  className="btn" onClick={()=>navigate('/Garden')}>Make your own garden!</button>
+    <button  className="btn" onClick={()=>navigate('/makegarden')}>Make your own garden!</button>
     </div>
     
     </div>

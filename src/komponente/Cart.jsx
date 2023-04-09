@@ -2,8 +2,8 @@
 function Cart({f,add,mod,remove}){
 
   return(
-   
-      <div className="card"   >
+    
+      <div className="card">
         <img src={f.slika} className="card-img-top" alt="..."/>
       <h5 className="card-title">{f.naziv}</h5>
       
@@ -18,6 +18,8 @@ function Cart({f,add,mod,remove}){
         }
       </div>
     </div>
+    
+  
     
   
   );

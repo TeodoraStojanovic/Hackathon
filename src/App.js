@@ -25,7 +25,7 @@ const[allVegetables]=useState([
   {
     id:2,
     naziv:"Cucumber",
-    slika:"https://eklinika.telegraf.rs/wp-content/uploads/2020/10/27/krastavac-shutterstock_250330750-910x602.jpg",
+    slika:"https://online.idea.rs/images/products/121/121098375_1l.jpg?1604323090",
     sezona:"july-sept",
     fav:0
   },
