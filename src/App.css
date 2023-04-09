@@ -77,17 +77,18 @@
   
 }
 .main-box{ 
-  
   text-align: center;
   background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   margin-top: 0px;
   background-size: cover;
-  padding-top: 220px;
+  padding-top: 10px;
+  padding-bottom: 78px;
+ 
  
 }
 
-.btn-registar{
+.btn-register{
   background-color:rgb(97, 139, 97);
   color: white;
   margin-left: auto;
@@ -99,45 +100,56 @@
   text-align: center;
 
   }
-  .registar{
+  .register{
     font-size: 20px;
   }
   .forma{
     margin: top -100px;
-
-
   }
   .row-garden{
-    padding: 5%;
-    background-color: #dde6d2;
-    
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-size: cover;
   }
+
+.kartica{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+
+}
+.kontejner{
+  background-color:rgb(176, 237, 176);
+  text-align: center;
+}
   .card{
-  width: 20%;
-  margin: 40px;
+  padding-top: 7%;
+  width: 40%;
   border-radius: 5px;
   display: inline-block;
   
   }
+ 
   .card-img-top{
-  width: 100%;
+  width: 190%;
+  height: 230px;
+  object-fit: fill;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  
-  
+  display: block;
+  border: 2px solid black;
+
   }
   .card-title{
   font-size: 35px;
-  margin-top: 9px;
+   margin-top: 9px;
   margin-bottom: 5px;
-  text-align: center;
+ text-align: start;
+  }
   
-  }
-  .card-text{
-    text-align: center;
-  }
   .btn1{
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   border: 1px solid black;
   padding: 5px;
@@ -147,7 +159,8 @@
   color: white;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display:block;
+  width: 350px;
   
   
   }
@@ -156,9 +169,8 @@
   }
   .card-text{
     font-size: 19px;
-    text-align: center;
-   margin-top: -5px;
-  
+    margin-top: -10px;
+    text-align: start;
   }
   .btn1:hover{
     background-color: black;
@@ -166,3 +178,25 @@
     transition: .5s;
     cursor: pointer;
   }
+  .btn-login{
+    background-color:rgb(97, 139, 97);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 8px;
+    text-align: center;
+
+  }
+  .main-boxL{
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 273px;
+
+  }
+  
